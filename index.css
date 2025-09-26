@@ -137,3 +137,14 @@ body {
     text-decoration: none;
 }
 
+#buscador {
+    background-color: none;
+    color: #051424;
+    text-align: center;
+}
+
+#buscador a {
+    text-decoration: none;
+}
+
+

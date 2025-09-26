@@ -1,0 +1,128 @@
+body {
+    font-family: tahoma;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    color: #333;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.main-header {
+    background-color: #051424;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+.advice {
+    color: #666;
+    text-align: center;
+    padding: 1vh;
+    background-color: #ccc;
+    letter-spacing: 0.1vh;
+}
+
+.clbec-logo {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.clbec-logo-2 {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.clbec-logo-3 {
+    max-width: 30vh;
+    max-height: 30vh;
+    border-radius: 10px;
+
+}
+
+.portal-title {
+    font-size: 3vh;
+    color: #ddd;
+    margin: 0;
+}
+
+.clbec-name {
+    font-size: 1.2em;
+    color: #999;
+    margin-top: 10px auto;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(31em + 31em);
+    padding: 0;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.portal-links {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.portal-links h2 {
+    color: #051424;
+    margin-bottom: 25px;
+}
+
+.portal-link {
+    display: block;
+    margin: 15px 0;
+    padding: 15px 30px;
+    background-color: #522d04;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 2vh;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.portal-link:hover {
+    background-color: #6d3508;
+    transform: translateY(-2px);
+    color: #fff;
+}
+
+.disabled-link {
+    background-color: #522e048e;
+    cursor: not-allowed;
+}
+
+.disabled-link:hover {
+    background-color: red;
+    transform: none;
+}
+
+
+.main-footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #333;
+    color: white;
+    font-size: 0.9em;
+}
+
+.no-copy {
+    background-color: #999;
+    color: #333;
+    font-size: small;
+    padding: 1vh;
+    margin: 0;
+    text-align: center;
+}

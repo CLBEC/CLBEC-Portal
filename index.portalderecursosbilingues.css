@@ -1,0 +1,241 @@
+body {
+    font-family: tahoma;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    color: #333;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.main-header {
+    background-color: #051424;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+.advice {
+    color: #666;
+    text-align: center;
+    padding: 1vh;
+    background-color: #ccc;
+    letter-spacing: 0.1vh;
+}
+
+.clbec-logo {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.portal-title {
+    font-size: 3vh;
+    color: #ddd;
+    margin: 0;
+}
+
+.clbec-name {
+    font-size: 1.2em;
+    color: #999;
+    margin-top: 10px auto;
+}
+
+main .lema {
+  font-style: cursive;
+  font-weight: bold;
+  padding-top: 1vh;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3vh;
+  text-align: center;
+}
+
+section.registro {
+  background-color: #05142040;
+  border-radius: 1.5em;
+  border: 0.5em solid #051424;
+  color: #051424;
+  padding: 1vh auto;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  box-shadow: 00 00 002em #051424;
+}
+
+.registro h2 {
+    font-weight: normal;
+    text-align: center;
+    margin: 2vh;
+    border-bottom: 0.1em solid goldenrod;
+    padding: 0.5em;
+    font-size: 3vh;
+    font-weight: bold;
+    padding-top: 1vh;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+  padding-left: 1vh;
+  padding-right: 1vh;
+}
+
+form input, .placeholder {
+  font-size: 14px;
+  width: 87%;
+}
+
+form input, form select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 91%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 0;
+  padding-left: 2.5vh;
+  margin-left: 2vh;
+  margin-right: 0;
+  margin-top: 5px;
+  z-index: 10001;
+  text-align: center;
+  color: #051424;
+  border: none;
+  border-radius: 1em;
+  border-bottom: 0.2em solid #051424;
+  background-color: white;
+}
+
+form input, .date {
+  width: 87%;
+}
+
+button {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #051424;
+  font-style: italic;
+  color: white;
+  cursor: pointer;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  border-left: 3px solid goldenrod;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  transition: color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  color: #ccc;
+  transform: translateY(1px);
+}
+
+.menu {
+    background-color: #051424;
+    color: goldenrod;
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 1.5vh;
+    padding-bottom: 1vh;
+    display: flex;
+    margin: 0;
+    transition: color 0.3s, transform 0.2s;
+
+}
+
+.menu:hover {
+    transform: translateY(1px);
+    color: white;
+}
+
+#mensaje {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+  font-size: x-large;
+  margin: 1em;
+}
+
+.checkbox {
+    color: #051424;
+    background-color: #05142040;
+    padding: 1.5em;
+    width: 88.5%;
+    margin: 0.5 auto;
+    text-align: center;
+    border-radius: 1em;
+    border: 0.1em solid #051424;
+    font-weight: normal;
+}
+
+.main-footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #333;
+    color: white;
+    font-size: 0.9em;
+}
+
+.no-copy {
+    background-color: #999;
+    color: #333;
+    font-size: small;
+    padding: 1vh;
+    margin: 0;
+    text-align: center;
+}
+
+
+option {
+  color: white;
+  background-color: #051424;
+  font-weight: bold;
+}
+
+.flags {
+  justify-content: center;
+  justify-items: center;
+  width: auto;
+  background-color: skyblue;
+  padding: 1vh;
+  margin-bottom: 5vh;
+}
+
+.flag {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.f1 {
+  background-color: blue;
+  padding: 3vh;
+  border-top-left-radius: 1vh;
+  border-bottom-left-radius: 1vh;
+  margin: 0;
+}
+
+.f2 {
+  background-color: white;
+  padding: 3vh;
+  margin: 0;
+}
+
+.f3 {
+  background-color: blue;
+  padding: 3vh;
+  border-top-right-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  margin: 0;
+}

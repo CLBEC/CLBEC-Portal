@@ -1,0 +1,42 @@
+<!Doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="with=device-with, initial-scale=1.0">
+        <title>PORTAL INFORMATICO</title>
+        <link rel="stylesheet" href="index.buscadorclbec.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <h1>Portal de Informatica</h1>
+
+            <form id="taskForm">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Buscar:">
+                </div>
+
+                <div class="filter-container">
+                    <label for="statusFilter"></label>
+                    <select id="statusFilter">
+                        <option value="todos">Todos</option>
+                        <option value="pendiente">Pendiente</option>
+                        <option value="en_progreso">En progreso</option>
+                        <option value="completado">Completado</option>
+                    </select>
+                </div>
+
+                <input type="text" id="taskInput" placeholder="Nombra tu tema:" required>
+                <button type="submit">Agregar tema a los archivos</button>
+            </form>
+
+            <div class="sheet">
+                <div class="header-row">
+                    <div class="header-cell">Descripcion del Tema</div>
+                    <div class="header-cell">Estado actual del Tema</div>
+                </div>
+            </div>
+        </div>
+        <script src="script.buscadorclbec.js"></script>
+    </body>
+</html>

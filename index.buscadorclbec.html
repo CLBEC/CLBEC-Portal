@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="with=device-with, initial-scale=1.0">
         <title>PORTAL INFORMATICO</title>
-        <link rel="stylesheet" href="index.buscadorclbec.css">
+        <link rel="stylesheet" href="index.css">
     </head>
     <body oncontextmenu="return false;">
 
@@ -22,8 +22,12 @@
                     <input type="text" id="searchInput" placeholder="Buscar:">
                 </div>
 
-                <div class="filter-container">
-                    <label for="statusFilter"></label>
+                <input type="text" id="taskInput" placeholder="Nombra tu tema:" required>
+                <button type="submit">Agregar tema a los archivos</button>
+            </form>
+
+                            <div class="filter-container" style="margin-bottom: 2vh; width: 100%;">
+                    <label for="statusFilter" style="padding-right: 1vh; font-weight: bold;">Filtro:</label>
                     <select id="statusFilter">
                         <option value="todos">Todos</option>
                         <option value="pendiente">Pendiente</option>
@@ -32,10 +36,6 @@
                     </select>
                 </div>
 
-                <input type="text" id="taskInput" placeholder="Nombra tu tema:" required>
-                <button type="submit">Agregar tema a los archivos</button>
-            </form>
-
             <div class="sheet">
                 <div class="header-row">
                     <div class="header-cell">Descripcion del Tema</div>
@@ -43,16 +43,12 @@
                 </div>
             </div>
         </div>
-
-      <a href="index.html#menu" class="menu">Regresar al Portal de Portales</a>
-
-        
         <div id="#buscador"></div>
         <footer class="main-footer">
         <p>&copy; Portal Educativo Bilingue Informatico. <br> Todos los derechos reservados.</p>
         <p>&reg; Tec. Angel Guevara</p>
         <p>&trade; Centro Linguistico Bilingue Educational Classrooms - 2025</p>
     </footer>
-        <script src="script.buscadorclbec.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>

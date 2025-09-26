@@ -126,3 +126,14 @@ body {
     margin: 0;
     text-align: center;
 }
+
+.buscador {
+    background-color: none;
+    color: #051424;
+    text-align: center;
+}
+
+.buscador a {
+    text-decoration: none;
+}
+

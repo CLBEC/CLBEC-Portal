@@ -181,6 +181,12 @@ select {
     margin: 0;
 }
 
+.clbec-name {
+    font-size: 1.2em;
+    color: #999;
+    margin-top: 10px auto;
+}
+
 @media (max-width: 600px) {
     .container {
         padding: 10px;

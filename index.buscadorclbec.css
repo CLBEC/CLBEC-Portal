@@ -175,6 +175,12 @@ select {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
 }
 
+.portal-title {
+    font-size: 3vh;
+    color: #ddd;
+    margin: 0;
+}
+
 @media (max-width: 600px) {
     .container {
         padding: 10px;
